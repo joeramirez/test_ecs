@@ -1,6 +1,6 @@
 library(aws.s3)
 library(lubridate)
-#library(aws.ec2metadata)
+library(aws.ec2metadata)
 
 dfRand <- data.frame(
   colA = runif(10),
